@@ -87,6 +87,9 @@ input, button, label {
 	margin: 0 auto;
 	max-width: $content-size;
 	width: 100%;
+	@include laptop-max {
+		padding: 0 rem(20px);
+	}
 	@include tablet {
 		padding: 0 rem(16px);
 	}
@@ -95,6 +98,9 @@ input, button, label {
 	margin: 0 auto;
 	max-width: rem(937px);
 	width: 100%;
+	@include laptop-max {
+		padding: 0 rem(20px);
+	}
 	@include tablet {
 		padding: 0 rem(16px);
 	}
